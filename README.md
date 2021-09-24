@@ -4,11 +4,11 @@ slstatus web page [here](https://tools.suckless.org/slstatus/). This repository
 contains my configuration of slstatus, which can be seen in the config.h file.
 
 ## Installation
-There are two dependencies. The first is a window manager running on X that uses
-WM_NAME or stdin for the status bar. The second is
-[Font Awesome](fontawesome.com). To install slstatus, run the following:
+There are three dependencies: A window manager running on X that uses WM_NAME or
+stdin for the status bar, [Font Awesome](fontawesome.com), and pamixer. 
+To install slstatus, run the following:
 ```sh
-git clone https://github.com/jasrangi/slstatus.git
+git clone <url>
 cd slstatus
 make clean install
 ```
